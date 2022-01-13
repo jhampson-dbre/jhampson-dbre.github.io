@@ -54,13 +54,16 @@
 							with over 13 years of experience working with technology, <br />
 							including 8 years designing, building, and operating production data stores.</p>
 					</header>
-					<p> Currently, I am the technical lead at HCA Healthcare for the database automation program,
-						focusing on cloud databases, database operations automation, and database configuration
-						management.<br /><br />
+					<p> In my current role, I am the technical lead for database automation,
+						focusing on deploying cloud databases using infrastructure as code,
+						automating incident response to create self-healing database infrastructure, and empowering
+						development teams with self-service database options.
+						<br /><br />
 						I have previously worked as an ERP Systems Engineer, and I love using GitHub and OpenShift to
 						build, release, and deploy all the things. <br /><br />
 						In my free time, I enjoy writing Python programs to draft my fantasy football team,
-						automating my home with Home Assistant, and trying out new barbeque recipes on my smoker.</p>
+						automating my home with Home Assistant, and trying out new barbeque recipes on my smoker.
+					</p>
 				</div>
 			</section>
 
@@ -104,16 +107,18 @@
 									title="View on Ansible Galaxy"
 									alt="Home Assistant Collection on Ansible Galaxy" /></a>
 							<div class="inner">
-								<h4>Home Assistant Collection for Ansible</h4>
+								<h4>Home Assistant Ansible Collection</h4>
 								<p>Install, configure, and secure Home Assistant
 									on a Raspberry Pi running Debian. <br /><br />
 
 									<b>Technology</b> <br />
-									Home Assistant Collection includes 6 Ansible roles to automate the
-									installation of Home Assistant.
-									The collection enhances standard Home Assistant install by setting up
+									Home Assistant Ansible collection includes 6 Ansible roles to automate server
+									provisioning
+									according to the strict requirements for a supported Home Assistant
+									installation.<br /><br />
+									The collection further enhances the basic install by setting up
 									automatic Debian security updates using unattended-upgrades
-									and configuring fail2ban to report on unauthorized remote login attempts.
+									and configuring fail2ban to block unauthorized remote login attempts.
 									<br /><br />
 
 									A GitHub Actions workflow lints and tests new releases of Home
@@ -133,13 +138,14 @@
 
 									<b>Technology</b> <br />
 									Nginx Reverse Proxy with Web Application Firewall Add-on is a fork of the standard
-									Nginx Reverse Proxy add-on,
-									but with an additional layer of security from modsecurity web application firewall
-									pre-loaded with the OWASP core rule set.
+									Nginx Reverse Proxy add-on
+									with an additional layer of protection from ModSecurity web application firewall.
+									The OWASP core rule set is used to protect against a wide range of attacks,
+									including SQL injection, cross-site scripting, and code injection.
 									<br /><br />
-
-									The add-on runs inside of a Docker container. New releases of the add-on are
-									published to Docker Hub using GitHub Actions.
+									The add-on runs inside of a Docker container and can be used with Home Assistant by
+									adding the GitHub repository URL to your Home Assistant's add-on store. New releases
+									of the add-on are published to Docker Hub using GitHub Actions.
 								</p>
 							</div>
 						</article>
